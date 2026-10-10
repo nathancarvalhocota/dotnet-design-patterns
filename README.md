@@ -113,7 +113,9 @@ npx skills remove dotnet-design-patterns -g
 
 Para instalações somente no projeto, use `npx skills update dotnet-design-patterns -p` e `npx skills remove dotnet-design-patterns` na raiz dele.
 
-Se clonou manualmente, atualize com `git -C <pasta-da-skill> pull --ff-only`. Para remover, exclua a pasta que você clonou. Ao remover, apague também a instrução de nota automática, caso tenha adicionado.
+Se clonou manualmente, atualize com `git -C <pasta-da-skill> pull --ff-only`. Para remover, exclua a pasta que você clonou.
+
+Ao desinstalar a skill de um agente, apague também a linha de nota automática do arquivo de instruções em que você a adicionou: `CLAUDE.md` para Claude Code, `AGENTS.md` para Codex ou o arquivo equivalente para outros agentes. Use o arquivo global ou do projeto, conforme a instalação. Se o arquivo for compartilhado com agentes que continuam usando a skill, mantenha a instrução para eles.
 
 ## Referências de instalação
 
