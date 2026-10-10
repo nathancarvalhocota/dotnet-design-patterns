@@ -38,7 +38,7 @@ No fim da resposta, separada do resto, em citação. Três partes em texto livre
 
 Quando o usuário pergunta onde um padrão aparece ou quais padrões um trecho usa:
 
-1. Use os sinais do catálogo para achar candidatos. Em pasta grande ou projeto inteiro, delegue a varredura a um subagent.
+1. Use os sinais do catálogo para achar candidatos. Em pasta grande ou projeto inteiro, delegue a varredura quando o ambiente oferecer subagentes e as instruções da sessão permitirem; caso contrário, faça a busca diretamente por partes.
 2. Confirme cada candidato lendo o código: sinal de busca sozinho não prova o padrão.
 3. Responda agrupado por padrão, uma linha por ocorrência: `arquivo:linha`, objetos envolvidos e o papel do padrão ali.
 4. Sem ocorrência: diga onde procurou e cite padrões parecidos que apareceram.
